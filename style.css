@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    
+}
+.back-image{
+    height: 700px;
+    background-size: cover;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 600px;
+    border: 2px solid black;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: rgb(255, 245, 245);
+}
+button{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20%;
+    margin: 0 3px;
+    background-color: rgb(255, 245, 245);
+    cursor: pointer;
+    width: 60px;
+}
+.items{
+    align-items: center;
+}
+.rows{
+    margin: 8px;
+}
+.rows input{
+    
+    padding: 10px 38px;
+    border: solid 2px black;
+    border-radius: 5px;
+    width:200px;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.hold{
+    width: 300px;
+    height: 500px;
+    border: 2px solid white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 5%;
+}
+.button{
+    background-color: rgb(208, 201, 201);
+}
+.mac{
+    background-color: orange;
+}
+.txt{
+    width:500px;
+    height:650px;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.head{
+    text-align: center;
+}
+.a{
+    font-family: 'Roboto', sans-serif;
+}
